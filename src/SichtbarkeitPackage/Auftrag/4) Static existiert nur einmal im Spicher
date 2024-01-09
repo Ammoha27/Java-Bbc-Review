@@ -1,0 +1,38 @@
+Wir programmieren zurzeit noch nicht Objektorientiert, uns fehlen noch die Objekte.
+
+Die Objekte sind Inhalt der nächsten Präsentation. Um dich etwas darauf vorzubereiten,
+wollen wir uns zuerst das Problem anschauen, welches die Objekte für uns lösen werden.
+
+Du weisst, static verbindet Methoden und Variablen mit der Klasse.
+Durch static werden Methoden und Variablen zu Klassenmethoden und Klassenvariablen.
+
+Die Klasse kannst du dir wie ein Bauplan vorstellen, welcher genau definiert, wieviel Arbeitsspeicher zur Laufzeit benötigt wird.
+Zur Laufzeit, also sobald deine Applikation ausgeführt wird, sind die Klassen deiner Applikation dann im Arbeitsspeicher genau einmal geladen.
+
+public static void main(String[] args) {
+
+    Point.setX(2);
+    Point.setY(2);
+
+    Point.setX(4); // Der Wert von x wird überschrieben
+    Point.setY(4); // Der Wert von y wird überschrieben
+
+    int x = Point.getX();
+    int y = Point.getY();
+
+    System.out.println(x + "," + y);
+
+}
+
+Point.x (2) = x;  x: 4
+
+
+Unser Problem: Die einzige Möglichkeit die du bis jetzt kennst, um mit Klassen gleichzeitig mehrere Punkte im Speicher zu halten,
+ ist das Schreiben von mehreren Klassen. Point1.java, Point2.java, ….
+
+
+
+ Hinweis
+ In den nächsten kleinen Projekten wirst du absichtlich nur statische Lösungen programmieren (static),
+ damit du verstehst, dass dies schnell zu Problemen führt.
+  Im weiteren Verlaufe des Modules wirst du deine Lösungen dann in eine objektorientierte Variante umformen.

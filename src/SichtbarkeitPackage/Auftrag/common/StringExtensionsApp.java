@@ -1,2 +1,4 @@
-package SichtbarkeitPackage.Auftrag.common;public class StringExtensionsApp {
+package SichtbarkeitPackage.Auftrag.common;
+
+public class StringExtensionsApp {
 }

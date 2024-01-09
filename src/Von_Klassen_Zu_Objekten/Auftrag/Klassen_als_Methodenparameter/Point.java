@@ -1,4 +1,4 @@
-package Von_Klassen_Zu_Objekten.Auftrag.Erstellen_von_Point_Instanzen;
+package Von_Klassen_Zu_Objekten.Auftrag.Klassen_als_Methodenparameter;
 
 public class Point {
     private int x;

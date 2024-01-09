@@ -1,0 +1,79 @@
+Bis jetzt hast du nur im statischen Kontext programmiert.
+Du hast deine Methoden und Variablen mit static deklariert und sie somit mit der Klasse verbunden.
+
+
+Die Klasse im Arbeitsspeicher
+
+Stell dir die Klasse als Bauplan vor, der genau definiert, wie die Klasse im Arbeitsspeicher aussieht.
+Im Speicher braucht jede Klassenvariable abhängig vom Datentyp unterschiedlich viele Bits:
+
+boolean	1 Bit
+char	16 Bits
+int	32 Bits
+long	64 Bits
+double	64 Bits
+
+Zur Laufzeit, also sobald deine Applikation ausgeführt wird, sind die Klassen deiner Applikation im Arbeitsspeicher geladen.
+
+Alles was static ist, bzw. auf der Klasse liegt, existiert zur Laufzeit nur genau einmal im Arbeitsspeicher, und kann, wie du weisst, bequem über den Klassennahmen angesprochen werden.
+Point.getX();
+
+
+
+Instanz
+
+Wenn du static löschst, also die Verbindung der Klassenvariablen und Klassenmethoden von der Klasse trennst, befinden sich Methoden und Variablen nicht mehr auf der Klasse, sondern auf einer Instanz bzw. Objekt.
+Du wechselst vom statischen Kontext zum Instanzkontext.
+Aus Klassenvariablen werden Instanzvariablen und aus Klassenmethoden werden Instanzmethoden.
+
+
+Was ist eine Instanz
+
+Eine Instanz ist eine Kopie der Klasse im Arbeitsspeicher. Solange du Speicher hast, kannst du beliebig viele Instanzen von einer Klasse im Arbeitsspeicher erstellen.
+Jede Instanz der Point-Klasse kann demnach unterschiedliche Werte für x und y in seinem Speicher halten.
+
+Alles was static ist, wird dagegen im „Original“ (auf der Klasse) gespeichert.
+Die statischen Variablen x und y auf der Point-Klasse sind jeweils nur genau einmal im Arbeitsspeicher.
+
+Also teilen sich alle Instanzen einer Klasse die Klassenvariablen und falls eine Instanz den Wert einer Klassenvariable ändert,
+ist dies auch für alle anderen Instanzen sichtbar.
+
+
+
+
+Der new Operator
+
+Mit dem new-Operator wird im Speicher eine Kopie oder Instanz einer Klasse erstellt, bzw. instanziiert.
+
+Point p1 = new Point();
+
+Syntax:
+Datentyp Variable = new Klasse();
+
+Durch new Point() wird die Instanz der Klasse erstellt und in einer Variable gespeichert.
+Neu verwenden wir Klassen im Code auch als Datentypen. Eine Variable vom Datentyp einer Klasse beinhaltet eine Instanz dieser Klasse.
+
+
+
+Arbeiten mit Instanzen
+
+Der Zugriff auf eine Instanz erfolgt über die Variable.
+Point p1 = new Point();
+p1.setX(4);
+int x = p1.getX();
+
+
+
+„this“ – die Selbstreferenz
+
+Der folgende Code beinhaltet einen Fehler:
+public void setY(int y){
+    y = y;
+}
+Das Problem ist, dass mit y zweimal die Parametervariable gemeint ist. Wir weisen y sich selbst zu. Wir wollen aber die Parametervariable der Instanzvariable zuweisen.
+Mit der Selbstreferenz this kannst du die Instanzvariable ansprechen:
+
+public void setY(int y){
+    this.y = y;
+}
+Du kannst alle Instanzvariablen aber auch alle Instanzmethoden über this ansprechen.

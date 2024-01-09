@@ -1,36 +1,61 @@
-package Von_Klassen_Zu_Objekten.Auftrag.Account2;
+package Konstruktoren.Auftrag.Account3;
+
+
+import static Konstruktoren.Auftrag.Account3.Account.createAccountsForPeople;
 
 public class App {
     public static void main(String[] args) {
 
+        Person[] person = new Person[10];
+        for (int i = 0; i < person.length; i++){
+            person[i] = new Person("Amir", "Mohamed");
 
-        Account[] accounts = Account.createAccounts(10);
-        for (int i = 0; i < accounts.length; i++){
+        }
+
+        Account[] accounts = createAccountsForPeople(person);
+
+        for (int i = 0; i < 10; i++) {
             accounts[i].deposit(RandomHelper.getRandomDouble(1, 1000));
         }
 
+        Account accountWithBiggetsBalance = Account.findAccountWithBiggetsBalance(accounts);
+        System.out.println(accountWithBiggetsBalance.getOwner() + " has the biggets balance with " + accountWithBiggetsBalance.getBalance() + " CHF ");
 
-        Account AccoutnwithBiggetsSaldo = accounts[1];
-        for (int i = 1; i < accounts.length; i++){
-            if (accounts[i].getBalance() > AccoutnwithBiggetsSaldo.getBalance()){
-                AccoutnwithBiggetsSaldo = accounts[i];
-            }
-        }
-        System.out.println(AccoutnwithBiggetsSaldo.getBalance());
-            }
+        for (int i = 0; i < accounts.length; i++){
+            System.out.println(accounts[i].getOwner());
         }
 
-/*
-        Account AccoutnwithBiggetsSaldo = null;
-        for (int i = 1; i < accounts.length; i++){
-            if (accounts[i].getBalance() > AccoutnwithBigggetsSaldo.getBalance()){
-                AccoutnwithBigetsSaldo = accounts[i];
-                    }
-                }
+        System.out.println("----------------------------------------------");
 
-              Das würde ein NullPointerExeption auslösen, weil wir eine Methode auf eine Instanz ausführen die null ist
-              Lösung = Wir geben die erste Instanz vom accounts der Varaible AcoountwithBiggetsSaldo, somit wöre AcoountwithBiggetsSaldo die erste Instanz vom Array
-              Und so könnten wir die balance von jeder Instanz im Array mit der Instanz AccountwithBiggetsSaldo vergleichen
-              und die Instanz der Variable AccountwithBiggetsSaldo mit der neuen Instanz ersetzen.
 
- */
+        for (int i = 0; i < person.length; i++){
+            person[i].setFirstname("Nicht Amir");
+
+        }
+        for (int i = 0; i < accounts.length; i++){
+            System.out.println(accounts[i].getOwner());
+        }
+
+        System.out.println("----------------------------------------------");
+
+        for (int i = 0; i < person.length; i++){
+            person[i] = new Person("Christof", "Flück");
+        }
+
+        for (int i = 0; i < person.length; i++){
+            person[i] = new Person("lol", "sds");
+            accounts[i].setOwner(person[i]);
+        }
+
+        for (int i = 0; i < accounts.length; i++){
+        System.out.println(accounts[i].getOwner());
+    }
+
+
+
+}
+
+
+}
+
+

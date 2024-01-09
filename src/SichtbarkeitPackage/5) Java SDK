@@ -1,0 +1,3 @@
+Die Java SDK ist in Module unterteilt.
+- java.base enthält das Fundament einer jeden Java SE Platform.
+- java.lang ist das einzige Package welches immer implizit vorhanden ist. -> Datentypenklassen zeigen.

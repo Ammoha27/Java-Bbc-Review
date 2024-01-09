@@ -1,0 +1,7 @@
+Mit dieser statischen Lösung können wir nur ein Konto haben, welches wir bewirtschaften.
+Wenn du mehrere Konten haben willst, welche verschiedene Kontostände haben können, müsstest du für jedes neue Konto eine neue Klasse machen (Account1, Account2, u.s.w.).
+Dies wäre in Augen eines Programmierers sehr unschön, da die Berechnung des Zinses und die Logik für das Einzahlen und Abheben immer dieselbe ist.
+Wenn wir mehrere Kontoklassen erstellen würden, hätten wir redundanten Code.
+Eine Änderung an der Logik würde bedeuten, dass wir in allen Klassen die Logik anpassen müssten.
+
+Mit Objekt Orientiertes Programmieren könnten wir dieses Problem lösen

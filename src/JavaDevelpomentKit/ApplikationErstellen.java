@@ -9,6 +9,7 @@ falls beim Erstellen des neuen Projektes die Checkbox „Add sample code“ nich
 // Ergänze nun die Klasse zwischen den beiden geschweiften Klammern mit der sogenannten main()-Methode:
 
 
+package JavaDevelpomentKit;
 
 public class ApplikationErstellen {
     public static void main(String[] args) {

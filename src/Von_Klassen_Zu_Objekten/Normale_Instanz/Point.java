@@ -1,4 +1,4 @@
-package Von_Klassen_Zu_Objekten;
+package Von_Klassen_Zu_Objekten.Normale_Instanz;
 
 public class Point {
     private int x;

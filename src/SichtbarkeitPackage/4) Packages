@@ -1,0 +1,38 @@
+Die Klasse einem Package zuordnen
+Packages sind vergleichbar mit Ordner
+Ermöglichen das Gruppieren von Klassen
+Full Qualified Name = Package + Klasse Bsp:	 packagename.Person
+Klassen können den gleichen Namen haben, solange sich der Full Qualified Name unterscheidet
+
+
+package packagename;
+
+public class Person {
+    /* ... */
+    }
+
+
+Der Packagename ist wie folgt aufgebaut
+
+package ch.bbcag.javademo.model;
+
+ch.bbcag: Firmen verwenden ihre internet Domain rückärts
+javademo: Projektname
+model: Package
+
+
+
+Packages importieren
+
+Um Klassen aus anderen Packages zu verwenden, muss die Klasse importiert werden
+… oder mittels Full Qualified Name angesprochen werden
+
+
+package ch.bbcag.javademo.controller;
+import ch.bbcag.javademo.model.Person;
+
+public class PersonController {
+
+ public Person person;
+  /* ... */
+ }

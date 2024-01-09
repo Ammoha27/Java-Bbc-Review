@@ -1,0 +1,38 @@
+public class Alienship {
+
+   private static final int SPEED = 10;
+   private String currentDirection = Direction.RIGHT;
+   private int xPosition = 0;
+
+   public void moveInCurrentDirection() {
+       if (currentDirection.equals(Direction.RIGHT)) {
+                 xPosition += SPEED;
+        }
+       if (currentDirection.equals(Direction.LEFT)) {
+                 xPosition -= SPEED;
+        }
+     }
+
+     public String getCurrentDirection() {
+           return currentDirection;
+      }
+
+     public void setCurrentDirection(String currentDirection) {
+          this.currentDirection = currentDirection;
+      }
+    }
+
+public enum Direction {
+   LEFT,
+   RIGHT
+ }
+
+
+Wir erstellen eine neue Datei namens Direction.java.
+Anstatt «public class Direction» schreiben wir «public Enum Direction» hin.
+Wir können jetzt «Direction» als neuer Datentyp benutzen.
+
+Dies stellt sicher, dass nur gültige Werte übergeben werden können, und nicht einfach irgendwelche Strings, wie bei den vorherigen Codes
+Denn der Datentyp ist Direction und nicht einfach irgendein String
+
+In Java ist ein enum (kurz für Enumeration) ein spezieller Datentyp, der eine Gruppe von festen Konstanten definiert

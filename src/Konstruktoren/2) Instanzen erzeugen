@@ -1,0 +1,7 @@
+
+
+Point p1 = new Point
+
+Der new-Operator gefolgt vom Klassennamen und runden Klammern erzeugt eine Instanz einer Klasse
+Die Variable p1 erhält nun eine Referenz auf die erstellte Instanz
+Als Datentyp für die Variable dient die Klasse

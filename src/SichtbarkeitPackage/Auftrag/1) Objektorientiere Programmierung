@@ -1,0 +1,4 @@
+Die komplexe Aufgabe einer Applikation zerteilt man in der objektorientierten Programmierung in möglichst viele Klassen.
+Die Klassen sollen zum einen möglichst wenig Daten untereinander austauschen müssen,
+und zum anderen, soll eine Klasse ihre Variablen (Daten) und ihre Methoden (Verhalten) gegenüber anderen Klassen verbergen (kapseln).
+Andere Klassen dürfen nur über Getter und Setter auf die Variablen zugreifen. Klassenkonstanten sind eine Ausnahme.

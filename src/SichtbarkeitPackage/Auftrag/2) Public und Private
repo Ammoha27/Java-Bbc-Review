@@ -1,0 +1,3 @@
+Du kannst steuern, wie weit deine Methoden oder Variablen von anderen Klassen aus aufrufbar bzw. sichtbar sind.
+Java kennt vier verschiedene Arten, die Sichtbarkeiten zu steuern. Entweder du schreibst die Schlüsselwörter private, public oder protected hin oder du schreibst gar kein Schlüsselwort hin.
+Für den Moment reicht es, public und private zu kennen.

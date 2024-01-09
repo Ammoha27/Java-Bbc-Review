@@ -1,0 +1,140 @@
+
+Sichtbarkeitsmodifikatoren
+
+Vor jede Variable, Methode und Klasse gehört vorerst ein: public oder private
+
+
+ohne Public / Private
+
+class App {
+
+static int result;
+
+static void main(String[] args) {
+        start();
+     }
+
+static void start() {
+       result = Math.add(5, 7);
+     }
+
+
+static int add(int n1, int n2) {
+          return n1 + n2;
+
+      }
+
+
+
+
+mit Public / Private
+
+
+public class App {
+    private static int result;
+
+    public static void main(String[] args) {
+            start();
+    }
+
+    private static void start() {
+          result = Math.add(5, 7); zugriff auf add von der Math Klasse
+          }
+       }
+
+
+public class Math {
+
+    public static int add(int n1, int n2) {
+          return n1 + n2;
+
+      }
+
+
+private = Zugriff nur innerhalb der Klasse
+public = Zugriff von überall
+
+
+Wir können von anderer Klasse auf add zugreiffen mittels Klassenamen: Math.add(5,7)
+
+
+
+
+
+
+
+Sichtbarkeitsmodifikatoren & Variablen
+
+
+
+Kapselung: Klassenvariablen sind vorerst immer private
+Konstanten dürfen public sein (falls benötigt)
+Zugriff auf andere Variablen/Konstanten mittels Klassennamen: Math.PI
+
+
+public class App {
+    private static int result;
+
+    public static void main(String[] args){
+        int radius = 5;
+        result = Math.PI * (radius * radius); Wir greifen auf die Konstante zu von der Math Klasse
+
+         }
+      }
+
+public class Math {
+
+    public static final double PI = 3.14;
+    private static int variable;
+
+  }
+
+
+
+
+Kapselung
+Durch die Kapselung kann man Zugriffsrechte für Variablen, Methoden oder Klassen selbst genauer definieren.
+
+Da Klassenvariablen vorerst immer private sind, müssen wir mit Getter und Setter auf sie zugreiffen.
+
+Zugriff auf Variablen nur über Getter und Setter
+Setter Methoden setzen den Wert
+Getter Methoden geben den Wert zurück
+
+Der Methodenname ist vorgegeben:
+get + Variablename()
+set + Variablename()
+boolesche Variablen Getter: is + VariableName()
+Getter und Setter sollten nur setzen bzw. zurückgeben und sonst nichts tun.
+
+
+
+public static void main(String[] args) {
+    Point.setX(4);
+    Point.setY(6);
+    int x = Point.getX();
+    int y = Point.getY();
+
+    System.out.println(x + "," + y);
+    }
+
+public class Point {
+    private static int x;
+    private static int y;
+
+    public static int getX(){
+        return x;
+     }
+
+    public static void setX(int x){
+        Point.x = x;
+       }
+
+    public static int getY(){
+          return y;
+        }
+
+     public static void setY(int y){
+             Point.y = y;
+         }
+     }

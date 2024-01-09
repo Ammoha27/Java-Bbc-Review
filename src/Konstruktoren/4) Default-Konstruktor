@@ -1,0 +1,50 @@
+Default-Konstruktor: Konstruktor ohne Parameter
+Der Default-Konstruktor ist implizit (ohne Code) in jeder Klasse vorhanden
+
+public class Point {
+   /*
+     Der Default Konstruktor ist
+     implizit in jeder Klasse vorhanden
+   */
+ }
+
+Point p1 = new Point()
+
+
+
+Ein expliziter Konstruktor löscht den impliziten Default Konstruktor
+
+public class Point {
+   ...
+    public Point(int x, int y) {
+          this.x = x;
+          this.y = y;
+         }
+        /* kein impliziter Konstruktor mehr */
+      }
+
+
+
+
+
+Auch mehrere Konstruktoren mit unterschiedlicher Anzahl Parameter oder Datentypen sind möglich (überladen)
+Der implizite Konstruktor kann auch explizit geschrieben werden
+
+
+Point p1 = new Point(2,4)
+
+public class Point {
+   ...
+    public Point(int x, int y) {
+          this.x = x;
+          this.y = y;
+         }
+
+        public Point(){
+        Explizit Default Konstruktor
+        }
+      }
+
+
+
+Point p2 = new Point

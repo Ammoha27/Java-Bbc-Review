@@ -1,4 +1,4 @@
-package Von_Klassen_Zu_Objekten.Klassen_als_Datentyp;
+package Von_Klassen_Zu_Objekten.Klassen_als_Datentyp.ParametertTyp;
 
 public class App {
     public static void main(String[] args) {

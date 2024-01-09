@@ -1,0 +1,27 @@
+Oft verwendet mit switch-case
+
+
+
+public class Car {
+    private static final int SPEED = 10;
+    private int x, y;
+
+    public void onDownClick() {
+         Direction dir = Direction.DOWN;
+         setDirection(dir);
+     }
+
+    public void moveToDirection(Direction dir) {
+        switch (dir) {
+         case LEFT:
+           x += SPEED;
+           break;
+         case RIGHT:
+           x -= SPEED;
+          break;
+         default:
+          throw new IllegalArgumentException("...");
+             }
+            }
+           }
+

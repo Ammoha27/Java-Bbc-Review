@@ -1,0 +1,7 @@
+- Applikation besteht aus Klassen
+- Jede Klasse ist für eine Sache verantwortlich
+- Methoden sind Verhalten
+- Variablen sind die Daten
+
+Neu:
+Eine Klasse versteck (kapselt) soweit möglich ihre Daten und ihr Verhalten.

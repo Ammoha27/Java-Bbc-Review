@@ -1,0 +1,28 @@
+public class Alienship {
+
+   private static final int SPEED = 10;
+   private String currentDirection = "right";
+   private int xPosition = 0;
+
+   public void moveInCurrentDirection() {
+       if (currentDirection.equals("right")) {
+                 xPosition += SPEED;
+        }
+       if (currentDirection.equals("left")) {
+                 xPosition -= SPEED;
+        }
+     }
+
+     public String getCurrentDirection() {
+           return currentDirection;
+      }
+
+     public void setCurrentDirection(String currentDirection) {
+          this.currentDirection = currentDirection;
+      }
+    }
+
+
+Es ist möglich, dass sich der Programmierer verschreibt und somit ein Bug entsteht.
+Der Programmierer weiss nicht, was es alles für mögliche Richtungen gibt.
+Falls die Namen der Richtungen ändert, wäre der Aufwand zum Umbenennen im ganzen Programm sehr gross.

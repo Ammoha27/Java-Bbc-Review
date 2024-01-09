@@ -1,0 +1,7 @@
+- Du kannst mit Packages arbeiten
+- Du verwendest die Keywords package und import
+- Du weisst, was mit Full Qualified Name gemeint ist
+- Du arbeitest mit private und public
+- Du verstehst Kapselung und verwendest Getter und Setter Methoden
+- Du kennst die Java SE JDK Packages
+- Du kannst von statischen Methoden aus auf öffentliche und statische Variablen und Methoden von anderen Klassen zugreifen

@@ -1,0 +1,25 @@
+Mittels this() kann ein anderer Konstruktor der Klasse aufgerufen werden
+Der Aufruf von this() muss die erste Anweisung des Konstruktors sein
+Dies ermöglicht es, gemeinsame Initialisierungscodes in einem einzigen Konstruktor zu bündeln, um redundante Codezeilen zu vermeiden.
+
+
+Spaceship s1 = new Spaceship(10, 2, 100);
+
+Spaceship s2 = new Spaceship(10);
+
+
+public class Spaceship {
+   private int speed;
+   private int x;
+   private int y;
+
+   public Spaceship(int speed) {
+        this.speed = speed;
+       }
+
+   public Spaceship(int speed, int x, int y) {
+         this(speed);
+         this.x = x;
+         this.y = y;
+        }
+      }

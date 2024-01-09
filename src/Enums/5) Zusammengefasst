@@ -1,0 +1,26 @@
+Speichert eine Gruppe von Konstanten
+Kann als Datentyp verwendet werden
+Macht den Code ausdrucksstärker
+
+
+
+public enum Color { RED, GREEN, BLUE }
+
+public enum Season { WINTER, SUMMER }
+
+public enum Direction {
+    UP,
+    RIGHT,
+    DOWN,
+    LEFT
+   }
+
+public enum Weekday{
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY
+ }

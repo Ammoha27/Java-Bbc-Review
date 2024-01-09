@@ -1,0 +1,9 @@
+Du weisst bereits, dass Packages wie Ordner sind, welche Klassen beinhalten. Du kannst ebenfalls bereits Packages aus Java-SDK importieren, um deren Klassen zu verwenden.
+Verwende für deine Projekte ebenfalls Packages um die Klassen zusätzlich zu strukturieren.
+Erstelle ein neues Package indem du an der ersten Zeile im OtherClass.java folgendes schreibst:
+package somepackage;
+Entspreche der Forderung von IntelliJ und verschiebe die Klasse OtherClass in das Package somepackage. Die Klasse SomeClass befindet sich jedoch noch in keinem Package. Falls die Klasse keinem Package zugeordnet ist, ist sie im „default“ Package und sieht alle Klassen, welche ebenfalls keinem Package zugeordnet sind. Die beiden Klassen befinden sich also nicht im selben Package. Deshalb musst du entweder in der Klasse SomeClass die Klasse OtherClass importieren, oder du benutzt den Full Qualified Name (Packagename + "." + Klassennamen).
+Probiere beides aus:
+import somepackage.OtherClass; // erste Zeile
+oder
+somepackage.OtherClass.say(); // mitten im Code

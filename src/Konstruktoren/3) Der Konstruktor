@@ -1,0 +1,36 @@
+Der Konstruktor sieht ähnlich aus wie eine Methode, ausser
+
+Konstruktornamen entspricht dem Klassennamen
+Kein Rückgabetyp
+Der Konstruktor wird beim Erstellen einer Instanz aufgerufen
+
+public class Point {
+
+public Point(){
+    }
+}
+
+Point p1 = new Point();
+
+
+
+
+Dem Konstruktor können Argumente mitgegeben werden
+Die Aufgabe des Konstruktors ist das Setzen der Initalwerte
+
+
+public class Point {
+    private int x;
+    private int y;
+
+public Point(int x, int y) {
+       this.x = x;
+       this.y = y;
+       }
+    }
+
+Point p1 = new Point(2,2);
+
+
+Mit einem eigenen Konstruktor lässt sich erreichen, dass ein Objekt nach seiner Erzeugung einen sinnvollen Anfangszustand aufweist.
+Z.B. kann einem Spaceship eine Startposition mitgegeben werden.
