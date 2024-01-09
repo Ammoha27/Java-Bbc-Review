@@ -1,0 +1,53 @@
+
+
+
+public class Point {
+
+       private int x;
+       private int y;
+
+       public int getX(){
+           return x;
+        }
+
+       public void setX(int x){
+          x = x;
+          }
+        }
+
+
+Problem: x weist sich den Wert selbst zu.
+
+
+
+Lösung: this.x
+
+this ist die Selbstreferenz
+Ermöglicht expliziten Zugriff auf Instanzvariablen und InstanzMethoden
+(Variablen und Methoden der Klasse oder des Objekts)
+
+
+
+public class Point {
+
+       private int x;
+       private int y;
+
+       public int getX(){
+           return x;
+        }
+
+       public void setX(int x){
+          this.x = x;
+          }
+
+
+        public int someMethod(){
+          return this.someOtherMethod();
+          }
+
+        public void someOtherMethod(){
+          ...
+           }
+     }
+

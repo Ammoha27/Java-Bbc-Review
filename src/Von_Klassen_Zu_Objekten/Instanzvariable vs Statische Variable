@@ -1,0 +1,41 @@
+Instanzvariable:
+
+Gehört zu einem bestimmten Objekt (einer Instanz) einer Klasse.
+Jede Instanz der Klasse hat ihre eigenen, unabhängigen Kopien dieser Variablen.
+Der Wert einer Instanzvariable ist spezifisch für jede einzelne Instanz.
+
+Statische Methoden können nicht direkt auf Instanzvariablen zugreifen, weil sie zum Klassenlevel gehören
+und nicht zu einem spezifischen Objekt.
+Instanzvariablen sind dagegen an spezifische Instanzen der Klasse gebunden.
+
+
+
+Statische Variable:
+
+Gehört zur Klasse selbst, nicht zu einer spezifischen Instanz.
+Es gibt nur eine einzige Kopie dieser Variablen, unabhängig von der Anzahl der Instanzen der Klasse.
+Alle Instanzen der Klasse teilen sich den gleichen Wert dieser Variablen. Eine Änderung der statischen Variable wirkt sich auf alle Instanzen aus.
+
+
+
+Um eine Instanz der Klasse zu verwenden und über diese Instanz auf die Variablen x und y zuzugreifen,
+müssen x, y und die zugehörigen Methoden als nicht-statische (Instanz-)Variablen und -Methoden umgewandelt werden.
+Somit können di Instanzen drauf zugreiffen und haben ihren eigenen Wert für die Variablen
+
+
+
+
+
+Gründe, warum this bei statischen Variablen nicht verwendet wird:
+
+Klassenkontext statt Instanzkontext: Statische Variablen und Methoden existieren unabhängig von Instanzen der Klasse.
+Sie sind an die Klasse gebunden, nicht an ein einzelnes Objekt. Daher gibt es keinen "aktuellen Objektkontext" (also kein this),
+auf den sie sich beziehen könnten.
+
+
+Gemeinsamer Zugriff: Da statische Variablen und Methoden von allen Instanzen der Klasse gemeinsam genutzt werden,
+ist es nicht sinnvoll, sie auf eine bestimmte Instanz zu beziehen. Stattdessen greift man auf sie über den Klassennamen zu.
+
+
+Klarheit und Verständlichkeit: Die Verwendung des Klassennamens (anstatt this) für den Zugriff auf statische Variablen und
+ Methoden macht deutlich, dass diese Elemente auf Klassenebene und nicht auf Instanzebene existieren.

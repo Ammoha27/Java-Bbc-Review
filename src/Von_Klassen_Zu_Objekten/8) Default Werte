@@ -1,0 +1,14 @@
+Für Klassen und Instanzvariablen
+
+public class App {
+    private Point p1 = null;
+    private Point p2;
+   }
+
+
+Die Instanzen p1 und p2 sind beide null.
+P2 ist hier nicht explizit initialisiert worden. Deshalb wurde p2 implizit mit null initialisiert.
+
+System.out.println(p2); Wäre Falsch
+Innerhalb einer Methode werden keine Default-Werte vergeben
+P2 müsste hier initialisiert werden, damit der Code kompiliert.

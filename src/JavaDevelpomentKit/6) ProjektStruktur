@@ -1,0 +1,25 @@
+
+
+
+- Hauptordner: Name hellostudent. Enthält das gesamte Java-Projekt.
+
+- Ordner src (Source): Beinhaltet alle Quellen des Projekts.
+
+- Ordner main: Enthält das Hauptprogramm.
+
+- Ordner test: Vorgesehen für automatisierte Testfälle (wird später im Modul behandelt).
+
+- Ordner java: Enthält ausschließlich Java-Dateien, also den Quellcode.
+
+- Ordner resources: Für Ressourcen wie Grafiken oder Audiodateien.
+
+
+In dieser Repititon belassen wir es aber mit den vielen Packages. Wir haben nur einen src
+
+
+Dateiverwaltung in IntelliJ:
+Beim Erstellen eines neuen Java-Gradle-Projekts werden Dateiverwaltungsinformationen automatisch in IntelliJ hinterlegt.
+Diese Einstellungen können vom Benutzer umkonfiguriert werden.
+Zur Ansicht und Bearbeitung dieser Einstellungen: Öffne in IntelliJ unter File > Project Structure… und wähle Modules auf der linken Seite.
+
+

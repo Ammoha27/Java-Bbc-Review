@@ -1,0 +1,35 @@
+public class Alienship {
+
+   private static final int SPEED = 10;
+   private String currentDirection = Direction.RIGHT;
+   private int xPosition = 0;
+
+   public void moveInCurrentDirection() {
+       if (currentDirection.equals(Direction.RIGHT)) {
+                 xPosition += SPEED;
+        }
+       if (currentDirection.equals(Direction.Lösung)) {
+                 xPosition -= SPEED;
+        }
+     }
+
+     public String getCurrentDirection() {
+           return currentDirection;
+      }
+
+     public void setCurrentDirection(String currentDirection) {
+          this.currentDirection = currentDirection;
+      }
+    }
+
+
+public class Direction {
+   public static final String RIGHT = "right";
+   public static final String LEFT = "left";
+   }
+
+Was ist hier das Problem 
+
+Der Programmierer könnte übersehen, dass er beim Aufruf von setCurrentDirection(…) einen Wert, der in der Klasse Direction definierten Konstanten übergeben muss
+(er könnte z.B. gar nicht wissen, dass es diese Klasse überhaupt gibt).
+Anstelle kann der Programmierer auch von Hand irgendeinen String übergeben

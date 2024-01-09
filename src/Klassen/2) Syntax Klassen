@@ -1,0 +1,178 @@
+Python vs Java
+
+
+
+
+Was macht dieser Code
+
+def add(number1, number2)
+ return number1 + number2
+
+ number1 = 5
+ number2 = 7
+ sum = add(number1, number2)
+
+ print("Summe: ", sum)
+
+
+ Eine Funktion mit dem Namen "add" wird definiert
+ Zwei Integer Variablen werden initialisiert
+ Die Funktion "add" wird aufgerufen, der Rückgabewert wird in die Variable sum gespeichert
+ Das Resultat wird ausgegeben
+
+
+
+
+Funktionsweise von Python
+
+Codezeilen liegen frei im Sourcefile
+Programm beginnt bei der ersten Zeile
+Eine Funktion muss innerhalb des Sourcefiles vor dem Aufruf definiert werden
+
+
+
+
+Der gleiche Code in Java:
+
+class App {
+
+  public static void main(String[] args) {
+
+  int number1 = 5;
+  int number2 = 7;
+  int sum = add(number1, number2)
+
+  System.out.println("Summe : " + sum)
+
+  }
+
+  static int add(int number1, int number2){
+    return number1 + number2;
+  }
+}
+
+
+
+
+Klassen:
+
+Keyword <<class>> + Klassennamen
+
+Code wird innerhalb von Klassen geschrieben
+1 Sourcefile = 1 Klasse
+Klassenname = Sourcefilename «App.java»
+Klassenname gross und Nomen (Einzahl)
+
+
+
+
+
+
+Methoden:
+
+Naming:Funktionen in Python = Methoden in Java
+Eine Klasse enthält Methoden
+Programmlogik befindet sich nur innerhalb von Methoden
+Eine Methode kann vor oder nach ihrer Definition aufgerufen werden
+
+
+
+
+
+Signatur von Methoden:
+
+class App {
+     static int add(int number1, int number2) {
+            return number1 + number2;
+           }
+
+
+static: verbindet die Methode mit der Klasse
+Rückgabetyp: Der Datentyp  welcher beim "return" zurückgegeben wird.
+Void falls die Methode nichts returned
+
+
+ static void print(String message) {
+     System.out.println(message);
+ }
+  }
+
+Java ist stärker typisiert als Python
+
+
+
+
+
+Die Main Methode:
+
+
+
+Erste Programmierzeile nach Start
+Einstiegspunkt in die Applikation
+Eine Applikation hat viele Klassen aber nur eine Main-Methode
+Argumente können beim Start des Programmes mitgegeben werden
+
+
+class App {
+   public static void main(String[] args) {
+
+      int number1 = 5;
+      int number2 = 7;
+      int sum = add(number1, number2);
+
+      System.out.println("Summe: " + sum);
+      }
+
+
+     static int add(int number1, int number2) {
+           return number1 + number2;
+           }
+         }
+
+
+
+
+
+
+
+Klassenvariable:
+
+
+Klassenvariablen speichern Daten, welche zur Klasse gehören
+Durch final wird aus der Variable eine Konstante (= unveränderbar)
+Konstanten schreiben wir in GROSSBUCHSTABEN
+Ansprechbar optional durch Klassennamen
+
+
+
+public class Math {
+
+
+}
+    public static final double PI = 3.14159;
+    private static int number = 10;
+
+    public static int getNumber() {
+         return number;
+       }
+
+
+     public static void setNumber(int newNumber) {
+             number = newNumber;
+        }
+
+         /* ODER */
+
+       public static void setNumber(int number) {
+              Math.number = number;
+        }
+}
+
+
+Unterschied Variable und Klassenvariable
+
+
+
+Eine Variable in Java ist ein Speicherplatz für Daten, der in einem bestimmten Bereich des Codes definiert ist und einen Wert speichert.
+Eine Klassenvariable ist eine Variable, die einer Java-Klasse zugeordnet ist, anstatt einer bestimmten Instanz dieser Klasse. Das bedeutet,
+dass alle Instanzen (Objekte) dieser Klasse auf denselben Wert der Klassenvariable zugreifen und sie gemeinsam nutzen können.

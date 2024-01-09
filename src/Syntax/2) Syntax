@@ -1,0 +1,229 @@
+
+Python vs Java
+
+
+in Java:
+ Jede Codezeile endet mit Semikolon
+ Alle Variablen brauchen einen Datentypen beim Erstellen
+ Geschweifte Klammer statt einrücken zum Code gruppieren
+
+Python:  s = "Hallo" // string
+Java: String s : Nur Dekleration      s = "Hallo" : Initialisierung
+
+
+-----------------------------------------
+
+Primitive Datentypen
+
+boolean, int, double, float, sting
+
+Verwende Integer Ganzzahlen udn Double für Fliesskommazahlen
+
+
+
+
+
+----------------------------------------
+
+Typenumdwandlung mit primitiven Datentypen
+
+Implizite
+
+Niederwertier -> höherwertiger Datentyp
+Ohne cast-Operator
+Der int-Wert wird in einen long-Wert gecastet
+
+int wert = 10
+long wert2 = wert
+
+
+Explizit
+
+Häherwertiger -> niederwertiger Datentyp
+mit cast-Operator (int)
+
+
+Mit Hilfsfunktionen bei Strings
+
+int i = Integer.parseInt("10");
+double d = Double.parseDouble("5.5");
+String text = Integer.toString(100);
+
+-----------------------------------------
+
+Operatoren
+
+Arithmetische Operatoren: +  *  -  /  %    ++  --
+Vergleichsoperatoren: <   >   !=   <=   >=   ==
+Zuweisungsoperatoren: =  +=  -=
+Logische Operatoren: &&  !  ||
+
+----------------------------------------
+
+Syntax
+
+
+
+Python:
+if bedingung1:
+   anweisung1
+   anweisung2
+
+Java:
+if (bedingung1) {
+   anweisung1;
+   anweisung2;
+   }
+
+
+
+IF ELSE
+
+Python:
+if bedingung1:
+   anweisung1
+   anweisung2
+elif bedingung2:
+   anweisung1
+else:
+    anweisung1
+
+
+Java:
+if (bedingung1) {
+   anweisung1;
+   anweisung2;
+ } else if (bedingung2) {
+ } anweisung 1
+  else {
+  anweisung1
+  }
+
+
+
+WHILE / DO WHILE
+
+Python:
+i = 0
+while i <= 10:
+      i++
+
+
+
+Java:
+
+int i = 0;
+while (i <= 10) {
+    i = i + 1;
+  }
+
+ int j = 0;
+ do { j = j + 1; }
+    while (j <= 10);
+
+
+
+
+FOR-Schleife
+
+for (initial state; testing condition; increment or decrement) {  ...}
+
+for (int x = 2; x <= 4; x++) {
+  ...
+  }
+
+
+
+
+
+Switch-Case
+
+Erlaubte Typen: char, int, Enum, String, byte, short
+
+
+switch (Variable) {
+    case Variablenwert:
+      Anweisung;
+      break;
+    case Variablenwert:
+        Anweisung;
+        break;
+        default:
+           Anweisung;
+}
+
+
+int i = 1;
+switch (i) {
+  case 1:
+   System.out.println("Eins");
+      break;
+   case 2:
+    System.out.println("Zwei");
+       break;
+    case 3:
+   break;
+    case 4:
+     System.out.println("Drei oder Vier");
+    break;
+ default:
+    System.out.println("Andere Zahl");
+}
+
+
+
+
+Strings
+
+Strings sind Objekte der Klasse java.lang.String
++ Operator zum Verknüpfen
+Viele nützliche Funktionensubstring(), split(), charAt(), …
+Strings werden mit equals() verglichen
+
+
+String text = "Welt"
+text = "Hallo " + text;
+text = text.toUpperCase(); // HALLO WELT
+
+
+if ("Text1".equals("Text2")){} Richtig
+if ("Text1" == "Text2"){} Falsch
+
+
+
+
+
+Arrays
+
+Beinhaltet nur Werte eines Datentyps
+Anzahl Elemente ist unveränderbar und muss beim Initialisieren gesetzt werden
+
+
+Definition von Arrays
+
+int[] leeresArray = new int[3];
+int[] zahlen[] zahlen = {10, 20, 30};
+String[] farben = {"Rot", "Grün", "Blau"};
+
+Lesen & Schreiben mit Arrays
+
+int x = zahlen[0]; // x = 10
+zahlen[1] = 15; // [10, 15, 30]
+x = zahlen.length // 3
+
+Array durchlaufen (iretieren)
+for (String farbe : farben){
+ System.out.print(farbe)
+}
+
+
+
+
+
+Kommentare
+
+// Rest der Zeile ist Kommentar
+
+/*
+Kommentar über mehrere zEILEN
+*/

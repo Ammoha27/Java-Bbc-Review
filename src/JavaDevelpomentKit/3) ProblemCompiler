@@ -1,0 +1,9 @@
+Problem
+
+Jeder Rechnertyp hat seinen eigenen Maschinen Code:
+Dein Code muss für jeden Rechnertyp separat kompiliert werden!“
+
+
+Source Code -> Compiler Windows -> Maschinen Code für Windows
+Source Code -> Compiler Mac -> Maschinen Code für Mac
+Source Code -> Compiler Linux -> Maschinen Code für Linux

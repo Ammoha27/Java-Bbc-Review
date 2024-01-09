@@ -1,0 +1,13 @@
+
+Lösung
+JRE - Java Runtime Environment
+
+
+
+Source Code (.java) wird zu Java Byte Code (.class) kompiliert
+
+Zur Laufzeit (Ausführzeit) übersetzt das JRE den Java Byte Code zu Rechnertyp spezifischem Maschinen Code
+Für jeden Rechnertyp existiert eine eigene JRE
+
+
+Java Source Code (.java) -> Java Compiler -> Java Bytes Code (.class) -> JRE (Version Windows), JRE (Version Mac), JRE (Version Linux)

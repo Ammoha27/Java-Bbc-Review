@@ -1,0 +1,17 @@
+Primitive Datentypen: byte, short, int, long, float, double, boolean, char
+int i = 10;
+double d = 1.4;
+
+
+
+Komplexe Datentypen:
+Alle Klassen in deinem Projekt
+(SDK, sonstige Libraries, eigene Klassen)
+
+Point p = new Point();
+Person p = new Person();
+String s = new String();
+
+
+
+Eine Klasse kann auch mehrere Konstruktoren mit unterschiedlichen Parametern enthalten.

@@ -1,0 +1,9 @@
+Programmstart: JVM lädt Klassen in Arbeitsspeicher
+Jede Klasse bzw. alles was statisch ist, existiert zur Laufzeit genau einmal im Arbeitsspeicher
+Die Klasse dient als Bauplan bei der Speicherreservierung
+Jede Klassenvariable benötigt Speicher gemäss ihrem Datentyp
+
+
+boolean 1 Bit, long 64 Bits
+char 15 Bits, double 64 Bits
+int 32 Bits

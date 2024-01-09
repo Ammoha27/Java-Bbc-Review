@@ -1,0 +1,102 @@
+Instanzen einer Klasse
+
+Instanz <-> Objekt
+Eine Instanz ist eine Kopie der Klasse im Arbeitsspeicher
+Jede Instanz der Point Klasse kann unterschiedliche Werte für x und y in seinem Speicher halten
+
+
+Um mehrere Instanzen einer Point Klasse erstellen zu können, löschen wir "static"
+
+
+public class Point {
+   private int x;
+   private int y;
+
+   public int getX(){
+      return x;
+    }
+
+    public void setX(int newX){
+        x = newX;
+       }
+
+     public int getY(){
+        return y;
+       }
+
+     public void setY(int newY){
+        y = newY;
+       }
+      }
+
+Ohne static wird aus:
+Klassenvariable  Instanzvariable
+Klassenmethode  Instanzmethode
+
+Der Zugriff mittels Klassennamen ist nicht mehr möglich:
+
+Point.setX(2); int y = Point.getY(); ist Falsch
+
+
+
+
+
+Instanzen erzeugen und verwenden
+
+Der new-Operator gefolgt vom Klassenamen und runden Klammern erzeugt eine Instanz einer Klasse
+
+Point p1 = new Point()
+
+Die Variable p1 erhält nun eine Referenz auf eine bestimmte Instanz
+Als Datentyp für die Variable dient die Klasse
+Zugriff mittels Punktoperator auf der Instanzvariable:
+
+p1.setX(2);
+p1.setY(3);
+
+
+Was wird ausgegeben?
+
+Ohne die Instanz wird der Wert für x und y ja immer nur einmal gespeichert
+Dank der OOP können wir nun mehrere Instanzen erstellen die ihre eigene Werte für x und y haben
+
+public class Point {
+
+   private int x;
+   private int y;
+
+   public int getX(){
+     return x;
+   }
+
+   public void setX(int newX){
+       x = newX;
+    }
+
+   public int getY(){
+     return y;
+    }
+
+   public void setY(int newY){
+     y = newY;
+    }
+   }
+
+
+public class App {
+    public static void main(String[] args) {
+
+         Point p1 = new Point();
+         p1.setX(2);
+         p1.setY(3);
+
+         Point p2 = new Point();
+         p2.setX(4);
+         p2.setY(6);
+
+         System.out.println(p1.getX() +","+ p1.getY());
+         System.out.println(p2.getX() +","+ p2.getY());
+          }
+       }
+
+Ausgabe = "2,3" und "4,6"

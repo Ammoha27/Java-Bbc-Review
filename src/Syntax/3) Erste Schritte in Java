@@ -1,0 +1,10 @@
+public class SomeKlasse {
+    public static void main(String[] args) {
+
+        // Kommentar: Hier schreibst du deinen Code
+    }
+}
+Auf der ersten Zeile wird eine Klasse SomeKlasse definiert.
+Eine Klasse kannst du dir als Container von Funktionen (und Daten) vorstellen. Bei Java werden Funktionen als Methoden bezeichnet. Eine Datei (Sourcefile) enthält genau eine Klasse.
+Auf der zweiten Zeile wird eine Methode mit den Namen main() definiert.
+Innerhalb der runden Klammern werden die Parameter inkl. Datentyp definiert.

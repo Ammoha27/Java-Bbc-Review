@@ -1,0 +1,48 @@
+
+
+Klassen:
+
+Ein Sourcefile enthält eine Klasse. Eine Klasse enthält Methoden und Variablen.
+Der Klassenname wird grossgeschrieben und entspricht dem Sourcefilenamen. Der Klassenname ist ein Nomen.
+
+
+Eine Klasse ist für genau eine Aufgabe verantwortlich, gemäss ihrem Namen.
+Die Namen der Methoden und Variablen stehen im Zusammenhang mit der Aufgabe der Klasse. Wenn andere Programmierer deinen Klassennamen lesen, sollten sie die Variablennamen und Methodennamen schon fast erraten können.
+
+
+
+
+
+static:
+
+
+Mit static werden die Variablen und Methoden mit der Klasse verbunden. Sobald wir Variablen oder Methoden mit static markieren, sprechen wir von Klassenvariablen bzw. Klassenmethoden.
+
+Klassenvariablen + Konstanten
+
+Variablen sind die Daten deiner Klasse, sie werden klein geschrieben.
+
+
+
+Die Klasse SomeClass enthält eine Variable ohne Initialisierung und eine Konstante mit dem Wert PI.
+Mittels final wird eine Variable zur Konstante. Ihr Wert muss bei der Deklaration gesetzt werden und kann nachträglich nicht geändert werden.
+Wenn du die Initialisierung löschst, wird dir deine IDE eine Fehlermeldung anzeigen, probiere es aus!
+
+variablen schreiben wir in camelCase und Konstanten schreiben wir in GROSSBUCHSTABEN_MIT_UNDERSCORE_GETRENNT.
+
+
+
+
+Klassenmethoden:
+
+
+Methoden sind das Verhalten deiner Klasse. Der Name beinhaltet ein Verb. Eine Methode tut nur genau eine Sache (do one thing).
+
+
+Die Klasse SomeClass beinhaltet 3 Klassenmethoden.
+Die erste Methode hat keine Parameter und hat einen Rückgabewert void (übersetzt: Das Nichts, die Leere). Dies bedeutet, dass die Methode nichts zurückgibt.
+Die zweite Methode hat zwei Parameter. Bei Java musst du die Datentypen der Parameter angeben, hier sind dies die Datentypen int und String.
+Die dritte Methode gibt einen Integer-Wert zurück.
+
+Solange zwei Methoden zwar den gleichen namen haben aber einen anderen Rückgabetypen, Parameter, spricht man von Methodenüberladung, wenn beide Methoden den gleichen Namen, Rückgabetyp und Parameter haben
+erscheint ein Fehler, weil es zwei mal die gleiche Methode ist.

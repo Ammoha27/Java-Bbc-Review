@@ -1,0 +1,38 @@
+getter() und setter() Methoden werden gebraucht um Variablen von einer Klasse von aussen lesen und schreiben zu können
+Die Setter setzen den Wert der Variable und die Getter geben ihn zurück. Der Methodenname ist vorgegeben.
+
+get+Variablename() und set+Variablename(). Bei booleschen Variablen is+VariableName() anstatt get. Getter und Setter sollten nur setzten bzw. zurückgeben und sonst nichts Weiteres tun.
+
+
+
+
+
+Betrachte folgender Code:
+
+static int variable;
+
+static void setVariable(int variable){
+    variable = variable;
+}
+static int getVariable(){
+    return variable;
+}
+
+
+Bei der dritten Zeile hat sich ein Fehler eingeschlichen:
+
+variable = variable;
+
+Hier ist das Problem, dass mit variable zweimal die Parametervariable gemeint ist, wir wollen aber die Parametervariable der Klassenvariable zuweisen. Über den Klassennamen kannst du die Klassenvariable ansprechen.
+
+SomeClass.variable = variable;
+
+
+
+
+Aufruf mit Klassennamen
+
+
+Du kannst alle Klassenvariablen aber auch alle Klassenmethoden über den Klassennamen ansprechen.
+Wenn du nach dem Klassennamen den Punktoperator tippst (wiederaufrufbar mit CTRL + SPACE), zeigt dir IntelliJ alle Variablen und Methoden an, die auf der Klasse liegen.
+Wenn du beim Programmieren mit einer fremden Klasse konfrontiert bist, kannst du dir mit dem Punktoperator die Funktionsweise der Klasse anschauen. Probiere es aus!

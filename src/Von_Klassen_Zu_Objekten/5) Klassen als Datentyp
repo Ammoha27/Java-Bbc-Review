@@ -1,0 +1,11 @@
+
+Parametertyp
+
+Klasse dient als Parametertyp
+Instanzen können als Methodenargument verwendet werden.
+
+
+Rückgabetyp
+
+Klasse dient als Rückgabetyp
+Instanzen können von einer Methode zurück geben werden.
