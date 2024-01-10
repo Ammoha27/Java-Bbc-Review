@@ -5,104 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75fb16d-4d82-4709-b76e-3bd31011aa69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/1) Ziele" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/2) Testing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/3) JUnit Tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/4) Zweck von Unittests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/5) Naming" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/6) assertEquals" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/7) Before, After" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/Parametisierte Tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/StringExtensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/StringExtensionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/2) Problem" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/2) Problem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/4) Lösung mit enums" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/4) Lösung mit enums" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/5) Zusammengefasst" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/5) Zusammengefasst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/6) Weiteres Beispiel" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/6) Weiteres Beispiel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/Switch/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/Switch/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/Switch/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/Switch/Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/Warmup/Aliens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/Warmup/Aliens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/Warmup/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/Warmup/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Auftrag/WorkingAliens/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/Auftrag/WorkingAliens/Alien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaDevelpomentKit/ApplikationErstellen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaDevelpomentKit/ApplikationErstellen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/BbcMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/BbcMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/IntArrayExtensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/IntArrayExtensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/SomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/SomeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassen/Auftrag/StringExtensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klassen/Auftrag/StringExtensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/1) Lernziele" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/1) Lernziele" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/2) Instanzen erzeugen" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/2) Instanzen erzeugen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/3) Der Konstruktor" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/3) Der Konstruktor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/4) Default-Konstruktor" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/4) Default-Konstruktor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/5) this" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/5) this" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/RandomHelperr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konstruktoren/Auftrag/Account3/RandomHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Riddle/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Riddle/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Riddle/Mascot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Riddle/Mascot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/1) Ziele" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/1) Ziele" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/2) Klasse Repetition" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/2) Klasse Repetition" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/3) Sicherheitsmodifikatoren" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/3) Sicherheitsmodifikatoren" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/4) Packages" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/4) Packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/5) Java SDK" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/5) Java SDK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/1) Objektorientiere Programmierung" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/1) Objektorientiere Programmierung" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/2) Public und Private" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/2) Public und Private" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/3) Eigene Packages" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/3) Eigene Packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/4) Static existiert nur einmal im Spicher" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/4) Static existiert nur einmal im Spicher" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/OtherClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/OtherClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/SomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/SomeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/Problem" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/account/Problem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/auto/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/auto/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/auto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/auto/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/IntArrayExtensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/IntArrayExtensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/IntArrayExtensionsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/IntArrayExtensionsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/StringExtensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/StringExtensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/StringExtensionsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/common/StringExtensionsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/CircleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/CircleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/LineApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/LineApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/PointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/PointApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/RectangleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SichtbarkeitPackage/Auftrag/gemoetry/RectangleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/ArrayOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/ArrayOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/Aufgabe9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Syntax/Auftrag/ZahlenratenOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Syntax/Auftrag/ZahlenratenOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/RandomHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Account2/RandomHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Erstellen_von_Point_Instanzen/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Erstellen_von_Point_Instanzen/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Erstellen_von_Point_Instanzen/PointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Erstellen_von_Point_Instanzen/PointApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klasse_als_Rückgabewert/LineApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klasse_als_Rückgabewert/LineApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klasse_als_Rückgabewert/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klasse_als_Rückgabewert/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klassen_als_Methodenparameter/LineApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klassen_als_Methodenparameter/LineApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klassen_als_Methodenparameter/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/Klassen_als_Methodenparameter/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/NullPointerExpection/NullPointerExpection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/NullPointerExpection/NullPointerExpection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/NullPointerExpection/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/NullPointerExpection/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/PointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/PointApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Von Klassen zu Objekten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Auftrag/geometry/Von Klassen zu Objekten.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/ParametertTyp/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/PointFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Klassen_als_Datentyp/Rückgabetyp/PointFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Normale_Instanz/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Von_Klassen_Zu_Objekten/Normale_Instanz/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Repitition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Repitition.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +30,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -133,10 +50,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/ammoha/IdeaProjects/Java Repitition/src/Von_Klassen_Zu_Objekten",
     "node.js.detected.package.eslint": "true",
@@ -158,6 +82,12 @@
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\SichtbarkeitPackage\Auftrag" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Klassen\Auftrag" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Klassen" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Unittests.Auftrag" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Konstruktoren.Auftrag.Account3" />
@@ -186,7 +116,8 @@
       <workItem from="1704656224686" duration="5000" />
       <workItem from="1704696281115" duration="11514000" />
       <workItem from="1704709751018" duration="13114000" />
-      <workItem from="1704782741422" duration="18761000" />
+      <workItem from="1704782741422" duration="21062000" />
+      <workItem from="1704868949834" duration="6967000" />
     </task>
     <servers />
   </component>

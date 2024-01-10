@@ -1,0 +1,13 @@
+Zweck: Testet automatisiert einzelne Methoden ohne Abhängigkeiten
+
+Unit-Tests sind
+
+Fast -> Werden vor jedem Check-In ausgeführt
+Isolated ->  Dürfen sich gegenseitig nicht beeinflussen
+Self-Validating -> Das Resultat ist Rot oder Grün, keine Interpretation, Pro Test existiert ein Grund zum Fehlschlagen
+Repestable -> Resultat bleibt immer das Gleiche, Testdaten werden gesetzt und nach dem Test gelöscht.
+
+
+
+
+

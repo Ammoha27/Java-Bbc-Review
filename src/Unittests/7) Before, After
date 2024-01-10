@@ -1,0 +1,16 @@
+@BeforeEach,  @AfterEach, @BeforeAll, @AfterAll
+
+
+@BeforeEach
+Die Methode mit der Annotation @BeforeEach wird vor jedem Testfall ausgeführt. Voraussetzungen für den Test schaffen:
+ Aufbau von Datenbankverbindung, Öffnen von Dateien, …
+
+
+@AfterEach
+Die Methode mit der Annotation @AfterEach wird nach jedem Testfall ausgeführt. Aufräumen, damit der Test automatisiert wiederholt werden kann
+
+@BeforeAll
+Die Methode mit der Annotation @BeforeAll wird nur einmal vor allen Testfällen in dieser Klasse ausgeführt. Die Methode muss public static sein
+
+ @AfterAll
+Die Methode mit der Annotation @AfterAll wird nur einmal nach allen Testfällen der Klasse ausgeführt. Die Methode muss public static sein

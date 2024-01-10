@@ -1,0 +1,24 @@
+Die Korrektheit von Ergebnissen wird mit Asserts überprüft:
+
+assertEquals
+Vergleicht den Wert zweier Variablen miteinander
+
+assertNotNull
+Stellt sicher, dass eine Variable nicht null ist
+
+assertTrue
+Stellt sicher, dass eine Variable wahr ist
+
+
+
+Neben assertEquals gibt es noch viele weiter Assert-Anweisungen mit welchen du den Rückgabewert deiner Testmethode prüfen kannst.
+assertNotEquals(…);
+assertTrue(…);
+assertArrayEquals(…);
+...
+
+
+ Begriffserklärung
+
+Assert heisst auf Deutsch übersetzt „Behauptung“. Es wird also jeweils behauptet, dass z.B. zwei Werte nicht gleich sind oder dass ein bestimmter Wert true oder false ist u.s.w.
+Sobald das Ergebnis nicht der Behauptung entspricht, hat der Unit-Test fehlgeschlagen.

@@ -1,0 +1,25 @@
+@Test
+
+Testmethoden werden durch die Annotation @Test gekennzeichnet
+Der Name des Unit-Tests soll den Testcase beschreiben
+
+
+
+
+public class Calc {
+
+   public static int add(int n1, int n2) {
+        return n1 + n2;
+         }
+      }
+
+@Test
+ void when_add_5_with_5_then_10() {
+    int actual = Calc.add(5, 5);
+    assertEquals(10, actual);
+    10 wird expected
+
+
+
+
+

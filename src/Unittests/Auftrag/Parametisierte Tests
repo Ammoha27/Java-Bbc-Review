@@ -1,0 +1,16 @@
+Parametrisierte Tests ermöglichen eine kompakte Schreibweise, um die gleiche Methode mit verschiedenen Testdaten zu testen.
+Betrachte den Unit-Test.
+@ParameterizedTest
+
+@CsvSource({"0, 0", "12, 3", "0123, 6", "1000, 1" })
+void sum(String testData, int result) {
+    // Act
+    int actual = StringExtensions.quersum(testData);
+
+    // Assert
+    assertEquals(result, actual);
+}
+Die Methode quersum() wird mit verschiedenen Testwerten aufgerufen. Du siehst die Testdaten inkl. dem effektiven Resultat innerhalb der Annotation @CSVSource als kommagetrennte Liste von Strings.
+{"0, 0", "12, 3", "0123, 6", "1000, 1"}
+Die Methode wird 4 Mal aufgerufen. Das erste Mal mit "0, 0" bzw. mit einem String-Argument ”0” und einem Integer 0 für das erwartete Resultat.
+Kopiere den Code und versuche zu verstehen wie parametrisierte Tests funktionieren.

@@ -1,0 +1,9 @@
+Naming
+Benutze für alle Tests ein einheitliches Muster, welches das Verhalten erläutert; zum Beispiel:
+
+what_when_then
+
+@Test
+void checkUsersAge_userIsTooYoung_returnFalse() {
+   ...
+   }
