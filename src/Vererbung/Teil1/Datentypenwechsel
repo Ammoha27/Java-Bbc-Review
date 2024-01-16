@@ -1,0 +1,7 @@
+Die untenstehende Klasse Car hat eine Instanzvariable namens driver.
+public class Car {
+   private Person driver;
+   public Car(Person driver) {
+       this.driver = driver;
+   }
+}

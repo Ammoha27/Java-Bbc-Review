@@ -1,0 +1,32 @@
+this
+Referenz auf die aktuelle Instanz
+
+super
+Referenz auf die aktuelle Superinstanz
+
+
+
+public class Lebewesen {
+    private String name;
+  }
+
+public class Säugetier extends Lebewesen {
+   private String name;
+   public void doDemo() {
+   String säugeName = this.name;
+   String lebeName = super.name;
+   }
+  }
+
+
+Mit dem Schlüsselwort super kann auf die Superklasse zugegriffen werden.
+In diesem Beispiel geht dies jedoch nicht, da die Variable name in der Klasse Lebewesen private ist.
+Da wir grundsätzlich keine Instanzvariablen public machen wollen (Kapselung), gibt es dazu den Sichtbarkeitsmodifikator protected
+
+
+
+public class Lebewesen {
+    protected String name;
+  }
+
+In Java können jedoch auch Instanzen von Klassen des selben Packages auf protected Methoden oder Variablen zugreifen.

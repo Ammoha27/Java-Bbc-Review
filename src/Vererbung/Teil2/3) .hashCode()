@@ -1,0 +1,36 @@
+java.lang.Object
+.hashCode()
+
+Hash =klein hacken
+Hash-Funktion: liefert zu jedem Objekt einen eindeutigen Schlüssel als Integer
+
+
+User user1 = new User("Mickey", "Mouse");
+User user2 = new User("Homer", "Simpson");
+
+System.out.println(user1.hashCode());
+System.out.println(user2.hashCode());
+
+Ausgabe:
+918221580
+2055281021
+
+
+
+
+Die folgenden Methoden befinden sich auf der Klasse Object und somit auf jeder Instanz:
+equals(), hashCode(), toString(), getClass(), notify(), notifyAll(), und wait(
+
+
+java.lang.Object
+
+equals(obj: Object): boolean
+getClass(): Class
+hashCode(): int
+notify()
+notifyAll()
+toString(): String
+wait()
+wait(timeout: long)
+wait(timeout: long, nanos: int)
+

@@ -1,0 +1,43 @@
+ public class Lebewesen {
+    private String name;
+    public void setName(String name) {
+         this.name = name;
+       }
+
+
+
+  public class Säugetier extends Lebewesen{
+        public void trinkeMilch() {
+         /* ... */
+        }
+
+
+ public class Mensch extends Säugetier {
+    private String ahvNr;
+    public void setAhvNr(String ahvNr) {
+     this.ahvNr = ahvNr;
+     }
+    }
+
+
+
+public class App {
+   public static void main(String[] args) {
+        Mensch mensch = new Mensch();
+           mensch.
+         }
+      }
+
+Klassen (ver)erben:
+Eigenschaften (Instanzvariablen)
+Verhalten (Instanzmethoden)
+
+Mensch erbt (name von Lebewesen, trinkmilch von Säugetier)
+Die Klasse Mensch erbt alle Eigenschaften und Methoden von den Klassen Lebewesen und Säugetier.
+
+
+
+
+
+Frage ins Plenum: Von wo kommen die Methoden toString(), equals(…) u.s.w.?
+Antwort: Da Mensch von Säugetier, Säugetier von Lebewesen und Lebewesen von Object erbt und diese Methoden in der Klasse Object definiert sind, sehen wir sie auch auf einem Menschobjekt.

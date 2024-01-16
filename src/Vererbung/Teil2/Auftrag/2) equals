@@ -1,0 +1,12 @@
+Mittels equals() können komplexe Datentypen auf Gleichheit geprüft werden.
+Person p1 = new Person("Hans");
+Person p2 = new Person("Hans");
+
+if (p1.equals(p2)) {
+Wenn du equals() nicht überschreibst, wird die Default-Implementierung von der Klasse Object verwendet. Sie prüft, ob die beiden beteiligten Variablen auf die gleiche Instanz zeigen. Im Democode sind p1 und p2 zwei verschiedene Instanzen der Klasse Person und somit nicht gleich. Die Default-Implementierung ist demnach nur selten hilfereich, und du musst equals() bei der Verwendung mit komplexen Datentypen meistens überschreiben.
+@Override
+public boolean equals(Object o) {
+    Person person = (Person) o;
+    return name.equals(person.name);
+}
+Innerhalb der überschriebenen equals()-Methode musst du nun selber definieren, wann zwei Instanzen der Klasse Person gleich sind. Zwei Instanzen der Klasse Person sind bei uns dann gleich, wenn die Instanzvariablen name bei beiden Instanzen den selben Wert haben.

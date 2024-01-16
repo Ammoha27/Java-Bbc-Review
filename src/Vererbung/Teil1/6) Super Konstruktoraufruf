@@ -1,0 +1,73 @@
+public class Lebewesen {
+    protected String name;
+     public Lebewesen() {
+     /* ... */
+     }
+
+public class Säugetier extends Lebewesen {
+    public Säugetier() {
+           /* ... */
+     }
+   }
+
+
+Beim Erstellen einer Instanz Säugetier, wird ebenfalls eine Instanz Lebewesen erzeugt
+Konstruktor von beiden Klassen wird aufgerufen
+
+
+
+
+
+
+
+
+
+// Fehler
+
+public class Lebewesen {
+   protected String name;
+   public Lebewesen(String name) {
+      /* ... */
+    }
+
+public class Säugetier extends Lebewesen {
+    public Säugetier() {
+       /* ... */
+     }
+  }
+
+Superklasse hat kein Default-Konstruktor:Kompilierfehler
+
+
+
+// Lösung
+
+public class Lebewesen {
+   protected String name;
+   public Lebewesen(String name) {
+      /* ... */
+    }
+
+public class Säugetier extends Lebewesen {
+    public Säugetier() {
+       super(name)
+     }
+  }
+
+
+
+Mit super() kann Superkonstruktor aufgerufen werden
+
+Aufruf des Superkonstruktor muss auf der ersten Zeile des Konstruktors stehen
+
+
+
+Wenn eine Unterklasse erstellt wird, versucht der Java-Compiler standardmäßig, den parameterlosen Konstruktor der Superklasse aufzurufen,
+es sei denn, es wird ein anderer Konstruktor explizit aufgerufen. Wenn in der Superklasse kein parameterloser Konstruktor vorhanden ist
+(weil nur Konstruktoren mit Parametern definiert wurden), führt dies zu einem Kompilierfehler,
+da der Java-Compiler keinen passenden Konstruktor zum Aufrufen findet.
+
+
+In Ihrem Fall hat die Superklasse Lebewesen einen Konstruktor mit einem String-Parameter und keinen parameterlosen Konstruktor.
+Die Unterklasse Saeugetier hat einen impliziten Standardkonstruktor,
+der versucht, den nicht vorhandenen parameterlosen Standardkonstruktor der Superklasse aufzurufen, was zu einem Kompilierfehler führt.

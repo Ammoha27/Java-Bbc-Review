@@ -1,0 +1,16 @@
+Klassen erben mittels extends
+Alle Klassen erben von Object
+[extends Object] ist optional, implizit vorhanden
+
+
+public class Lebewesen {
+    /* ... */
+    }
+
+public class Säugetier extends Lebewesen {
+    /* ... */
+    }
+
+public class Mensch extends Säugetier {
+    /* ... */
+    }

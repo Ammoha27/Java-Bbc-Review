@@ -1,0 +1,10 @@
+Gibt einen String zurück, welcher die konkrete Instanz beschreibt. Auf einer Klasse Person, könntest du die Instanzvariable name zurückgeben. Hierzu musst du die Methode in der Kindklasse überschreiben.
+
+public class Person {
+    private String name;
+
+    @Override
+    public String toString() {
+        return name;
+    }
+}

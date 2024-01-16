@@ -1,0 +1,15 @@
+Liefert einen String, der jedes Objekt identifiziert
+Default-Implementierung: Klassenname@Hash-Wert
+
+
+User user1 = new User("Mickey", "Mouse");
+User user2 = new User("Homer", "Simpson");
+
+System.out.println(user1.toString());
+System.out.println(user2.toString());
+
+Ausgabe:
+User@36baf30c
+User@7a81197d
+
+

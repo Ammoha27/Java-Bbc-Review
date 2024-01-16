@@ -1,0 +1,33 @@
+Hat Beziehung
+
+Immer wenn du bei einer Problemstellung Sätze bilden kannst, welche das Verb „ (oder ähnliche Verben wie z.B. „besitzen“) beinhalten, kannst du davon ausgehen, dass du keine Vererbung brauchst.
+Beispielsätze ohne Vererbung
+Ein Auto hat ein Motor.
+Eine Person hat eine Adresse.
+Ein GradeBook hat Fächer, ein Fach hat Noten.
+Das Bbc hat Lernende, ein Lernender hat ein Lehrvertrag.
+
+
+Ist eine Art von Beziehung
+
+
+Eine weitere Beziehungsart ist die Vererbung. (Ist-eine-Art-von-Beziehung)
+
+Sobald du bei einer Problemstellung merkst, dass du keine Sätze mit „haben“ oder ähnlichen Verben machen kannst, ist dies ein Anzeichen, dass du mit Vererbung arbeiten könntest. Die Sätze, welche darauf hindeuten, dass du Vererbung benutzen könntest, beinhalten das Verb „sein“.
+Beispielsätze mit Vererbung
+Ein Auto ist eine Art von Fahrzeug.
+Ein Kind ist eine Art von Mensch.
+Ein Mensch ist eine Art von Lebewesen.
+Ein Rechteck ist eine Art von Form.
+
+Im untenstehenden Code-Beispiel siehst du nochmals, wie du mit dem Schlüsselwort extends solche Beziehungen umsetzen kannst:
+
+
+public class Rectangle extends Shape {
+    …
+}
+
+Das Ziel von Vererbung ist, dass du Redundanzen im Code verhindern kannst.
+Im nächsten Kapitel sehen wir gleich ein konkretes Beispiel von redundantem Code anhand der Klassen Rectangle und Circle.
+
+

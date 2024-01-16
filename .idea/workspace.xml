@@ -5,20 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75fb16d-4d82-4709-b76e-3bd31011aa69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Unittests/1) Ziele" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/2) Testing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/3) JUnit Tests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/4) Zweck von Unittests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/5) Naming" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/6) assertEquals" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/7) Before, After" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/Parametisierte Tests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/StringExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/StringExtensionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/1) Ziele" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/2) Problemstellung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/3) Lösung mit Object" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/4) Was passiert hier zur Laufzeit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/5) Lösung mit Generics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/5) Lösung mit Generics 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/1) Ziele" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/2) Beziehungen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/3) Assoziation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/4) Vererbung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/4.1) Vererbung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/5) Super vs This &amp; Protected" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/6) Super Konstruktoraufruf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/Hat vs ist eine Art von" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Arraylist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/ShapeArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Auftrag/geometryredundant/TextRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil1/Datentypenwechsel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/1) Ziele" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/2) Verberung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/3) .hashCode()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/4) .toString()" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/5) .toString() überschreiben" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/6) .equals(Object obj)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/Auftrag/1) toString" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/Teil2/Auftrag/2) equals" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/test/GeometryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vererbung/test/ShapeArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java Repitition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Repitition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unittests/Auftrag/IntArrayExtensionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +54,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +88,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ammoha/IdeaProjects/Java Repitition/src/Von_Klassen_Zu_Objekten",
+    "last_opened_file_path": "C:/Users/ammoha/IdeaProjects/Java Repitition/src/Vererbung",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,21 +98,23 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Vererbung" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Von_Klassen_Zu_Objekten" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Von_Klassen_Zu_Objekten\Auftrag" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\SichtbarkeitPackage\Auftrag" />
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Klassen\Auftrag" />
-      <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Klassen" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Vererbung.Teil1.Auftrag.geometryredundant" />
       <recent name="Unittests.Auftrag" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -96,6 +124,63 @@
       <recent name="Von_Klassen_Zu_Objekten.Auftrag.Klasse_als_Rückgabewert" />
       <recent name="Von_Klassen_Zu_Objekten.Auftrag.Klassen_als_Methodenparameter" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GeometryTest.circle_getPosition_CorrectPositionGetReturned">
+    <configuration name="GeometryTest.circle_getPosition_CorrectPositionGetReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Repitition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vererbung.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Vererbung.test" />
+      <option name="MAIN_CLASS_NAME" value="Vererbung.test.GeometryTest" />
+      <option name="METHOD_NAME" value="circle_getPosition_CorrectPositionGetReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeometryTest.rectancle_calculateArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Repitition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vererbung.Teil1.Auftrag.geometryredundant.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Vererbung.Teil1.Auftrag.geometryredundant.test" />
+      <option name="MAIN_CLASS_NAME" value="Vererbung.Teil1.Auftrag.geometryredundant.test.GeometryTest" />
+      <option name="METHOD_NAME" value="rectancle_calculateArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeArrayListTest.shapeArrayList_ContainsOneCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Repitition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vererbung.Teil1.Auftrag.geometryredundant.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Vererbung.Teil1.Auftrag.geometryredundant.test" />
+      <option name="MAIN_CLASS_NAME" value="Vererbung.Teil1.Auftrag.geometryredundant.test.ShapeArrayListTest" />
+      <option name="METHOD_NAME" value="shapeArrayList_ContainsOneCircle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeometryTest.circle_getPosition_CorrectPositionGetReturned" />
+        <item itemvalue="JUnit.ShapeArrayListTest.shapeArrayList_ContainsOneCircle" />
+        <item itemvalue="JUnit.GeometryTest.rectancle_calculateArea" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,11 +202,16 @@
       <workItem from="1704696281115" duration="11514000" />
       <workItem from="1704709751018" duration="13114000" />
       <workItem from="1704782741422" duration="21062000" />
-      <workItem from="1704868949834" duration="6967000" />
+      <workItem from="1704868949834" duration="25135000" />
+      <workItem from="1705301584328" duration="24626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

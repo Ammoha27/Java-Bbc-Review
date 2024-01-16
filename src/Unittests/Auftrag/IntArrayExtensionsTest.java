@@ -8,7 +8,6 @@ class IntArrayExtensionsTest {
     int[] testData = new int[] {2,1,5,3};
     @Test
     void getMax() {
-        // Arrange
 
 
         // Act

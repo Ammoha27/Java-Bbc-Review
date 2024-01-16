@@ -1,0 +1,12 @@
+Auch mehrere Platzhalter sind möglich.
+
+
+public static void main(String[] args) {
+   Pair<Integer,String> pair = new Pair<>(10,"Text");
+ }
+
+
+Für primitive Datentypen verwenden wir ihre Klassen:
+int  ->  Integer
+double ->  Double
+float  ->  Float

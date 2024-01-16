@@ -1,0 +1,51 @@
+Primitive Datentypen vergleichen wir mit: ==
+Strings und komplexe Datentypen mit .equals()
+
+
+Was denkt ihr, ist die Default-Implementierung von equals()?
+
+Antwort: Die Referenzen der beiden Objekte werden verglichen
+public boolean equals(Object obj) {
+    return (this == obj);}
+
+
+
+
+
+
+
+
+
+
+
+public class User {
+    private String vorname, nachname;
+    public User(String vorname, String nachname) {
+           this.vorname = vorname;
+           this.nachname = nachname;
+        }
+
+      @Override
+       public int hashCode() {
+            return Objects.hash(vorname, nachname);
+            }
+
+   @Override
+      public boolean equals(Object obj) {
+            return obj.hashCode() == hashCode();
+      }
+   }
+
+
+
+
+Gehört das Alter auch zum Gleichheitscheck?
+Müssen Vor- und Nachname gleich sein, oder reicht nur der Nachname?
+
+Wer bestimmt wann ein User gleich ist?
+Antwort: Du! Der Programmierer entscheidet aus dem Kontext (je nach Aufgabenstellung), welche Instanzvariablen für den Vergleich relevant sind.
+
+Objects.hash(vorname, nachname) erzeugt ein Hashcode anhand der mitgegebenen Argumente. Bei gleichen Werten der Argumenten, wird auch immer der selbe Hashcode generiert.Somit kann in der equals()-Methode die beiden Hashcodes der Objekte verglichen werden.
+
+Wieso wird bei equals() ein Object und kein User mitgegeben?
+Antwort: Da wir die equals()-Methode von Object überschreiben wollen, müssen wir dieselbe Signatur übernehmen, wie die von Object.

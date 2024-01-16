@@ -1,0 +1,28 @@
+Mensch -> Säugetier -> Lebewesen -> Object
+Mensch erbt von Säugetier, Lebewesen, Object -> Säugetier erbst von Lebewesen, Object -> ....
+
+
+    public class Lebewesen extends Object {
+        /* ... */
+
+    }
+
+
+ public class Säugetier extends Lebewesen {
+     /* ... */
+
+   }
+
+  public class Mensch extends Säugetier {
+      /* ... */
+
+  }
+
+
+
+
+
+
+Klassen erben mittels extends
+Alle Klassen erben von Object[extends Object] ist optional, implizit vorhanden
+Java unterstützt keine Mehrfachvererbung

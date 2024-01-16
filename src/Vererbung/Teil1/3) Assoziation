@@ -1,0 +1,12 @@
+Hat Beziehung
+
+Der Mensch hat...
+einen rechen Arm
+einen linken Arm
+
+
+public class Mensch {
+ private Arm armRechts = new arm();
+ private Arm armLinks = new arm();
+
+}

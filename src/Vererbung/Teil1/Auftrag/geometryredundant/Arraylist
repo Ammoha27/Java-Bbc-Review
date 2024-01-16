@@ -1,0 +1,19 @@
+Arraylist ist wie eine Art Array mit dynamischer Länge. Bei einer Arraylist musst man im gegensatz zu einem normalen Array nicht die anzahl der Elemente
+die man speichern möchte im vorhinein wissen.
+
+Standart Initalizion
+ArrayList<Integer> myList = new ArrayList<Integer>(); // an empty ArrayList of integers
+
+Initializion mit capazität
+ArrayList<Integer> myList = new ArrayList<Integer>(10); // ArrayList with an initial capacity of 10
+
+initializion mit Werte
+ArrayList<Integer> myList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)); // ArrayList with predefined values
+
+
+Mit den Methoden add() und remove() kann man der ArrayList einfach Shapes hinzufügen oder entfernen
+
+ArrayList<Shape> shapes = new ArrayList<>();
+Point point = new Point(10, 20);
+Circle circle = new Circle(point, 10);
+shapes.add(circle);
