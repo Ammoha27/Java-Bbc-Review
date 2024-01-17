@@ -1,0 +1,5 @@
+int[] neuesArray = new int[3]
+
+Die länge muss im Vorhinein bekannt sein.
+
+

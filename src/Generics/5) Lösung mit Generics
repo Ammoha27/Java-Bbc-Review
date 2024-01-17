@@ -3,15 +3,6 @@ Typenfehler werden bereits zur Kompilierzeit erkannt
 
 
 
-
-Container<Person> c = new Container<>();
-c.setItem(new Person());
-Person person = c.getItem();
-
-
-
-
-
 public class Container<T> {
     private T item;
 
@@ -23,3 +14,11 @@ public class Container<T> {
          this.item = item;
       }
     }
+
+
+
+Container<Person> c = new Container<>();
+c.setItem(new Person());
+Person person = c.getItem();
+
+

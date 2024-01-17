@@ -1,0 +1,8 @@
+In unserer Test-Methode wissen wir nicht mehr, ob im LottoGenerator deine IntArrayList oder die Klasse EvenBetterIntArrayList deines Kollegen verwendet wurde.
+Alles was wir wissen ist, dass wir es mit einer Liste zu tun haben, welche uns die im Interface definierten Methoden anbietet. Mehr brauchen wir auch nicht zu wissen.
+Sogar wenn jemand in Zukunft im LottoGenerator eine MostAwesomeIntArrayList verwendet, müssen wir unseren Code nicht anpassen. Und genau das ist das Ziel, wenn wir Interfaces einsetzen.
+
+
+Gratuliere, du hast soeben deine eigene Liste inklusive Interfaces implementiert. Der grosse Nachteil deiner IntArrayList ist jedoch,
+ dass du nur Ganzzahlen darin speichern kannst. Java bietet uns eine Klasse ArrayList an,
+  welche noch viel mehr kann als deine selbsterstellte IntArrayList, sie kann nämlich alle Arten von Objekten darin speichern.

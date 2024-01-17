@@ -1,17 +1,6 @@
 Wir verwenden Object als Datentyp.
 
 
-Container c = new Container();
-
-c.setItem(new Car());
-Car car = (Car) c.getItem();  //  Benötigt eine expliziten Down-Cast
-
-
-c.setItem(new Person());
-Person person = (Person) c.getItem();
-
-
-
 
 public class Container {
 
@@ -25,3 +14,16 @@ public class Container {
           this.item = item;
       }
     }
+
+
+
+Container c = new Container();
+
+c.setItem(new Car());
+Car car = (Car) c.getItem();  //  Benötigt eine expliziten Down-Cast
+
+
+c.setItem(new Person());
+Person person = (Person) c.getItem();
+
+

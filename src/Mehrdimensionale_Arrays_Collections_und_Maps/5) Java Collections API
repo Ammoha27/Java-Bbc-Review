@@ -1,0 +1,26 @@
+                                                <<Interface>>
+                                                 Iterable<E>
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                Collection<E>
+                                              |      |       |
+                                              |      |       |
+                                              |      |       |
+                                           List<E>  Queue<E> Set<E>-----------|            Map<K,V>
+                                          |    |       |        |             |               |
+                                          |    |-------|        |             |               |
+                                          |            |        |             |               |
+                                  ArrayList<E> LinkedList<E>  HashSet<E>   TreeSet<E>    HashMap<K,V>
+
+
+ Auch wie im Auftrag gesehen, sehen wir hier, dass das Interface List vom Interface Collection erbt und somit alles kann was auch eine Collection kann.
+ Umgekehrt geht dies jedoch nicht, eine Collection kann nicht alles was eine Liste kann, da Collection nicht von List erbt.
+ Ebenfalls im Auftrag haben wir erwähnt, dass es noch zusätzliche Listen zur ArrayList gibt, nämlich die LinkedList.
+
+ Die Unterschiede zwischen LinkedList und ArrayList liegen in der Performance.
+ Je nach Anzahl Einträge und Methode die aufgerufen wird, ist entweder ArrayList oder LinkedList schneller.
+ Wir gehen hier jedoch nicht weiter ins Detail, braucht einfach ArrayList.
+
+

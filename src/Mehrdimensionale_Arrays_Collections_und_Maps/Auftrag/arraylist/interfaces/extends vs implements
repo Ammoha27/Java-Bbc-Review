@@ -1,0 +1,26 @@
+In Java gibt es einen wesentlichen Unterschied zwischen extends und implements,
+und es gibt spezifische Regeln, wann man das eine oder das andere verwendet:
+
+
+
+extends: Wird verwendet, wenn eine Klasse von einer anderen Klasse erbt.
+In Java kann eine Klasse nur von einer einzigen Klasse erben (da Java keine Mehrfachvererbung unterstützt).
+Wenn Sie extends verwenden, erbt Ihre Klasse alle nicht-privaten Methoden und Eigenschaften der Elternklasse.
+
+
+
+implements: Wird verwendet, wenn eine Klasse ein oder mehrere Interfaces implementiert.
+Ein Interface ist eine Sammlung von abstrakten Methoden (und ab Java 8 auch Default- und statischen Methoden),
+die eine Klasse implementieren muss. Eine Klasse kann mehrere Interfaces implementieren.
+
+
+
+
+
+Warum also können Sie nicht extends für ein Interface verwenden?
+
+Ein Interface definiert kein konkretes Verhalten (abgesehen von Default-Methoden), sondern nur einen "Vertrag" in Form von Methodensignaturen.
+Wenn eine Klasse ein Interface implementiert, muss sie den im Interface definierten Vertrag erfüllen, indem sie alle abstrakten Methoden des Interfaces implementiert.
+
+
+extends wird für die Vererbung von einer konkreten oder abstrakten Klasse verwendet, um bestehende Funktionalitäten zu erben und/oder zu erweitern.

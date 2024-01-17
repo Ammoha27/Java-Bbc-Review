@@ -1,0 +1,43 @@
+int[][] matrix = {{1,2}, {3,4}, {5,6}};
+
+Oder
+
+int[][] matrix = new int[3][2];
+matrix[0][0] = 1;
+matrix[0][1] = 2;
+matrix[1][0] = 3;
+matrix[1][1] = 4;
+matrix[2][0] = 5;
+matrix[2][1] = 6;
+
+
+
+
+int[] matrix = {1,2,3,4,5}
+Wir haben 1 Array und können auf die Indexe der Elemente zugreiffen
+matrix[1] = 2
+
+
+int[][] matrix = {{1,2},{3,4},{5,6}} =
+   {
+   {1,2}
+   {3,4}
+   {5,6}
+   }
+
+Wir haben ein Array, in dem 3 weitere Arrays drin sind. Um auf den ersten Array des matrixs Arrays zuzugreiffen müssen wir wie folgt vorgehen:
+  int[] x = matrix[1];
+  System.out.println(x[1]); = 4
+
+  Wir greifen auf den 1 Array im Matrix Array zu und zusätzlich auf den ersten Element des 1 Arrays also 4
+
+-------------------------
+   int x = matrix[1][1];
+   System.out.println(x);
+
+   Hier brauchen wir kein [] beim x, weil wir spezifisch auf ein Element zugreiffen und nicht auf ein Array wie oben
+--------------------------
+
+
+  matrix[2][1] = 6
+  Wir greifen auf den Index 2 zu also auf den 3 Array. Im 3 Array greifen wir auf den ersten Index zu also auf 6

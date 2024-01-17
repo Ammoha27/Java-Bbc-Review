@@ -1,0 +1,58 @@
+Methode mit Generics
+
+List<String> Liste = new Arraylist<String>();
+
+in den <> geben wir den Typ an, von dem die Elemente sein müssen.
+List ist schon eine Art Generic. Wir können alle Datentypen brauchen. da ist der Sinn von Generics
+
+
+Wofür gibt es Generics
+Fallneispiel
+
+Imagine, ich bin verkäufer einer Softwarefirma die dafür zuständig ist, Arrays auszulesen.
+Durch eine Methode wird ein Array ausgelesen und ausgegeben
+
+int[] intArray = new int[]{1,2,3}
+
+
+public static void auslesen(int[] Array){
+    for(int element : intArray){
+        System.out.printLn(element)
+    }
+}
+
+auslesen(intArray)
+
+Unser Kunde möchte jedoch, das wir nun auch andere Arrays mit anderen Typen auslesen und ausgeben.
+Mit Überladung wäre das möglich
+
+
+double[] doubleArray = new double[]{1,2,3}
+
+public static void auslesen(double[] Array){
+    for(double element : intArray){
+        System.out.printLn(element)
+    }
+}
+auslesen(doubleArray)
+
+Das wird mit der Zeit jedoch sehr aufwändig.
+
+Unser Ziel sit es eine Methode zu programmieren, die jeden Datentypen animmt
+Dafür brauchen wir Generics
+
+
+
+public static <T> void auslesen(Type[] Array){
+    for(Type element : intArray){
+        System.out.printLn(element)
+    }
+}
+
+Nun könnnen wir Type für jeden Datentypen auszutauschen
+auslesen(intArray)
+auslesen(doubleArray)
+
+Der T in Generic ist ein Type, der Stellvertretend für jeden Typen ist.
+
+

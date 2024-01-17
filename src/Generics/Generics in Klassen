@@ -1,0 +1,53 @@
+Public class GenClass<T>{
+
+Type Objekt
+
+public T getObjekt(){
+    return Objekt
+}
+
+public void setObjekt(T neuesObjekt){
+    this.Objekt = neuesObjekt
+    }
+}
+
+Wir legen uns nicht auf ein Datentyp fest. Sondern auf mehrere mögliche
+
+In der Main Methode, kann ich nun den Typen für die Klasse setzen
+
+public Static void main(String[] args){
+    GenClass<String> gen = new GenClass()
+    gen.setObjekt("Objekt ist nun ein String")
+}
+
+// Wir haben den Parameter angegeben, der den T ersetzen sollen.
+
+
+
+
+Wir können auch mehrere Platzhalter nutzen
+
+
+
+public class Pair<K,V> {
+    private K key;
+    private V value;
+
+    public Pair(K key, V value) {
+          this.key = key;
+          this.value = value;
+     }
+   }
+
+
+
+public static void main(String[] args) {
+    Pair<Integer,String> pair = new Pair<>(10,"Text");
+   }
+
+
+
+Für primitive Datentypen verwenden wir ihre Klassen:
+int  ->  Integer
+double  -> Double
+float  ->  Float

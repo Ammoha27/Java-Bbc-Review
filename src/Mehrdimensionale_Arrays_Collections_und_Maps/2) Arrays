@@ -1,0 +1,29 @@
+-Beinhaltet nur Werte eines Datentyps
+-Anzahl Elemente ist unveränderbar und muss beim Initialisieren gesetzt werden
+
+Definition von Arrays
+
+int[] leeresArray = new int[3];
+int[] zahlen = {10, 20, 13};
+String[] farben = {"Rot", "Grün", "Blau"};
+
+
+Lesen & Schreiben mit Arrays
+
+int x = zahlen[0];    // x = 10
+zahlen[1] = 15;   // [10, 15, 20]
+x = zahlen.length; // x = 3
+
+
+Array durchlaufen (iterieren)
+
+for (String farbe : farben) {
+    System.out.print(farbe);
+ }
+
+
+Auch wenn wir nicht explizit die Länge angeben wie unten
+int[] leeresArray = new int[3];
+
+Wir die Länge hier trotzdem implizit gestzt
+int[] zahlen = {10, 20, 13};

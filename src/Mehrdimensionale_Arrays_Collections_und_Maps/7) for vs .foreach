@@ -1,0 +1,13 @@
+List<Double> doubles = new ArrayList<>();
+
+for (int i = 0; i < doubles.size(); i++) {
+   System.out.println(doubles.get(i));
+   }
+
+ for (Double double : doubles) {
+    System.out.println(double);
+  }
+
+
+Die untere for-Schlaufe mit dem Doppelpunkt nennt man eine for-each Schlaufe.
+Falls du in der Schlaufe aus irgend einem Grund einen Zähler wie die Variable i beim oberen Beispiel brauchst, benutze die normale for-Schlaufe, ansonsten die for-each.

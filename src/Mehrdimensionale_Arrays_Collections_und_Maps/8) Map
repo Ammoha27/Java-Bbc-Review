@@ -1,0 +1,43 @@
+Map (Schlüssel-Wert-Paare)
+
+
+Map<String, String> telefonMap = new HashMap<>();
+    Interface                       Konkrete Klasse
+
+
+Hier wird eine Map mit dem Namen telefonMap erstellt. Das Map-Interface wird verwendet, um den Datentyp zu definieren, und HashMap ist die konkrete Implementierung.
+Die Map speichert Schlüssel-Wert-Paare, wobei hier sowohl Schlüssel als auch Werte vom Typ String sind.
+
+
+
+telefonMap.put("Bill Gates", "04444844");
+telefonMap.put("Jeff Bezos", "04444413);
+telefonMap.put("Elon Mask", "0444484455);
+
+Mit der put-Methode werden Paare aus Namen und Telefonnummern zur Map hinzugefügt. Jeder Name ist ein Schlüssel, und die zugehörige Telefonnummer ist der Wert.
+
+
+String phone = telefonMap.get("jeff Bezos")
+
+Hier wird die get-Methode verwendet, um die Telefonnummer für "jeff Bezos" aus der Map abzurufen.
+
+
+
+
+
+
+Array und Map
+
+Ähnlichkeiten
+Speicherung von Elementen: Sowohl Maps als auch Arrays können eine Sammlung von Elementen speichern.
+
+Zugriff auf Elemente: In beiden Strukturen können Sie auf Elemente zugreifen. Bei Arrays verwenden Sie Indizes, und bei Maps verwenden Sie Schlüssel.
+
+
+
+Unterschiede
+Indizierung vs. Schlüssel-Wert-Paare:
+
+Ein Array ist eine Sammlung von Elementen, die über Indizes zugänglich sind, die normalerweise numerisch und fortlaufend sind.
+Eine Map ist eine Sammlung von Schlüssel-Wert-Paaren. Jeder Schlüssel ist eindeutig und wird verwendet, um auf den zugehörigen Wert zuzugreifen.
+Schlüssel müssen nicht numerisch sein; sie können von jedem Typ sein, der in der Map definiert ist.

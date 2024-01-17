@@ -1,0 +1,26 @@
+ArrayList
+
+List<Double> doublea = new ArrayList<>();
+ Interface               Kontrkete Klasse
+
+
+ doubles.add(5.5);
+ doubles.add(4.5);
+ doubles.add(6.0);
+ doubles.remove(5.5);
+
+
+ System.out.println("5.5 in list?: " + doubles.contains(5.5));
+ System.out.println("Value at index 0: " + doubles.get(0));
+
+
+ Wie im Auftrag gesehen, müssen wir beim Instanziieren einer ArrayList die Länge nicht im Vorhinein wissen.
+ In den spitzigen Klammern wird der Datentyp angegeben, welcher in der Liste gespeichert werden soll.
+ So wie bei einem Array, können also nur Objekte des selben Datentypes in einer Liste gespeichert werden.
+
+
+Die Methode remove(…) entfernt das erste Vorkommnis des gegebenen Wertes in der Liste.
+
+Ausgabe:
+5.5 in list?: false
+Value at index 0: 4.5

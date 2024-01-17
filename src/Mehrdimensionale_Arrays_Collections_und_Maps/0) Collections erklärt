@@ -1,0 +1,5 @@
+das Collections Framework in Java ist eine Sammlung von Klassen und Schnittstellen,
+die es Entwicklern ermöglicht, Gruppen von Objekten effizient zu verwalten und zu manipulieren.
+Es dient dazu, verschiedene Arten von Datensammlungen wie Listen, Sets und Karten (Maps) zu organisieren und bietet dafür standardisierte Methoden.
+Mit diesem Framework kann man zum Beispiel Daten hinzufügen, entfernen, sortieren, durchsuchen und auf verschiedene Arten organisieren.
+Es ist ein wesentlicher Bestandteil der Java-Programmierung und macht die Datenverwaltung einfacher und flexibler.

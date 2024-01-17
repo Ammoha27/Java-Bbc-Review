@@ -1,0 +1,5 @@
+Was bedeutet eigentlich das Wort Collection? Eine Collection ist nichts anderes als eine Sammlung von etwas (die Kollektion). Einer Collection kann ich z.B.
+Einträge hinzufügen, ich kann die Collection fragen, wie gross sie ist und ich kann die Collection fragen, ob ein bestimmtes Objekt in der Collection vorhanden ist.
+Eine Collection bestimmt jedoch keine Reihenfolge. Um eine Reihenfolge zu bestimmen brauchen wir eine Liste.
+Das Wort Liste sagt uns ja bereits, dass wir ein Element „gelistet“ in einer Reihenfolge ablegen.
+Wir können also eine Liste fragen, welcher Wert sich an einer bestimmen Listenposition befindet, bei einer Collection können wir dies nicht.

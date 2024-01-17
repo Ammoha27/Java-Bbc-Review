@@ -1,0 +1,48 @@
+«Set» sind Listen ohne Duplikate
+
+Set<Person> people = new HashSet<>();
+ Interface            Kontrkete Klasse
+
+ people.add(new Person("Bill Gates"));
+ people.add(new Person("Bill Gates"));
+
+ // Die Zweite Person wird nicht hinzugefügt.
+
+
+
+
+
+ Hierzu muss die hashCode()-Methode überschrieben werden.
+
+
+public class Person {
+   private String name;
+
+   public Person(String name) {
+        this.name = name;
+    }
+
+
+   @Override
+   public int hashCode() {
+        return Objects.hash(name);
+    }
+
+   @Override
+   public boolean equals(Object o) {
+       return hashCode() == o.hashCode();
+     }
+        ...
+   }
+
+
+Warum muss die HasCode Methode überschrieben werden.
+
+Die hashCode()-Methode muss in Java überschrieben werden,
+um die korrekte Funktionsweise von Objekten in einer HashSet zu gewährleisten.
+Ein HashSet verwendet die hashCode()-Methode, um effizient zu entscheiden, ob ein Objekt bereits im Set enthalten ist oder nicht.
+
+
+um sicherzustellen, dass zwei Person-Objekte mit demselben Namen denselben Hashcode haben und als gleich betrachtet werden.
+Dies ist wichtig für das korrekte Funktionieren des HashSet<Person>,
+um zu verhindern, dass Personen mit demselben Namen mehrmals hinzugefügt werden.

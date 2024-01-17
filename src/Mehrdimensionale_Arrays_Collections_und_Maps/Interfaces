@@ -1,0 +1,11 @@
+Stelle dir vor, deine Klasse IntArrayList wird weltberühmt. Auch die Firma, in der du arbeitest, braucht überall nur noch deine IntArrayList. D.h.,
+wir haben tausende Codezeilen in Hauptprogrammen oder Helper-Bibliotheken, wo IntArrayList als Datentyp verwendet wird. Auch wir haben in unserer Testklasse IntArrayList als Datentyp verwendet:
+
+IntArrayList lottoNumbers = LottoGenerator.generateLottoNumbers();
+
+Was, wenn jemand aus deiner Firma eine noch bessere Liste erfindet als deine IntArrayList und sie EvenBetterIntArrayList nennt?
+
+Tausende Codezeilen müssten angepasst werden. Überall wo IntArrayList bei der Deklaration einer Variable verwendet wurde,
+muss der Datentyp auf EvenBetterIntArrayList geändert werden.
+
+Dieses Problem können wir mit Interfaces lösen.

@@ -1,11 +1,3 @@
-Container c = new Container();
-
-c.setItem(new Person());
-Car car = (Car) c.getItem();
-
-> Task :App.main() Failed
-Expection in thread "main" java.lang.ClassCastExpection: at praesi.App.main(App.java:16)
-
 
 
 
@@ -21,6 +13,21 @@ public class Container {
           this.item = item;
      }
    }
+
+
+
+
+
+Container c = new Container();
+
+c.setItem(new Person());
+Car car = (Car) c.getItem();
+
+> Task :App.main() Failed
+Expection in thread "main" java.lang.ClassCastExpection: at praesi.App.main(App.java:16)
+
+
+
 
 
 Die Lösung mit Object kann zur Laufzeit zu einem ClassCastException führen.
