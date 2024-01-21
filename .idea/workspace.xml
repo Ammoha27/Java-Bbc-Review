@@ -5,34 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75fb16d-4d82-4709-b76e-3bd31011aa69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generics/Generics in Klassen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Generics in Methoden" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/0) Collections erklärt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/1) Ziele" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/2) Arrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/3) Mehrdimensionale Array" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/4) Nachteil von Arrays" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/5) Java Collections API" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/6) ArrayList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/7) for vs .foreach" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/8) Map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/9) Set" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/IntArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/IntArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/LottoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/LottoGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/Schlussfolgerung" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/interfaces/Collections" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/interfaces/IIntCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/interfaces/IIntList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/interfaces/extends vs implements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Interfaces" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/3) Lösung mit Object" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/3) Lösung mit Object" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/4) Was passiert hier zur Laufzeit" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/4) Was passiert hier zur Laufzeit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/5) Lösung mit Generics" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/5) Lösung mit Generics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Repitition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Repitition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/IntArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mehrdimensionale_Arrays_Collections_und_Maps/Auftrag/arraylist/IntArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,34 +40,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ammoha/IdeaProjects/Java Repitition/src/Vererbung",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ammoha/IdeaProjects/Java Repitition/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ammoha/IdeaProjects/Java Repitition/src/Vererbung&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ammoha/IdeaProjects/Java Repitition/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ammoha\IdeaProjects\Java Repitition\src\Vererbung" />
@@ -228,6 +204,7 @@
       <workItem from="1704782741422" duration="21062000" />
       <workItem from="1704868949834" duration="25135000" />
       <workItem from="1705301584328" duration="54349000" />
+      <workItem from="1705845522486" duration="2417000" />
     </task>
     <servers />
   </component>
